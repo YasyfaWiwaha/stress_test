@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-au!ba(mn%mincrmu_=hq462@n4mcfsgjm7%s+g#$k$pv@hr#xm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -108,6 +108,8 @@ LANGUAGE_CODE = "en-us"
 TIME_ZONE = "UTC"
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 
